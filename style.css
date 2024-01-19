@@ -248,7 +248,7 @@ h3 {
   background-color: black;
   height: 100px;
   background-repeat: repeat-x;
-  background-image: url("/jagged-edge-v2.svg");
+  background-image: url("jagged-edge-v2.svg");
   transform: scalex(1);
 }
 
@@ -297,12 +297,12 @@ h3 {
 
 .devour-black {
   position: relative;
-  background-image: url("/devour-black-1.svg");
+  background-image: url("devour-black-1.svg");
   left: -600px;
 }
 
 .work-black {
-  background-image: url("/work-black-pattern.svg");
+  background-image: url("work-black-pattern.svg");
 }
 
 .work-black-version {
@@ -310,7 +310,7 @@ h3 {
 }
 
 .devour-pink {
-  background-image: url("/devour-pink-1.svg");
+  background-image: url("devour-pink-1.svg");
   transform: translate(-363px, 0px);
 }
 
@@ -319,7 +319,7 @@ h3 {
 }
 
 .work-pink {
-  background-image: url("/work-pink-pattern.svg");
+  background-image: url("work-pink-pattern.svg");
 }
 
 .work-pink-2 {
@@ -332,7 +332,7 @@ h3 {
   background-color: #ff089c;
   height: 100px;
   background-repeat: repeat-x;
-  background-image: url("/jagged-edge-v2.svg");
+  background-image: url("jagged-edge-v2.svg");
   transform: scale(-1);
 }
 
@@ -350,7 +350,7 @@ h3 {
   height: 22px;
   width: 100%;
   position: relative;
-  background-image: url("/black-dash-effect.png");
+  background-image: url("black-dash-effect.png");
 }
 .card .black-dash-effect::after {
   content: "";
@@ -577,7 +577,7 @@ h3 {
   height: 24px;
   width: 100%;
   background-repeat: repeat-x;
-  background-image: url("/white-dash-effect.svg");
+  background-image: url("white-dash-effect.svg");
   margin-bottom: 20px;
 }
 .white-line-effect-divider:after {
@@ -653,7 +653,7 @@ footer p {
   height: 22px;
   width: 100%;
   position: relative;
-  background-image: url("/black-dash-effect.png");
+  background-image: url("black-dash-effect.png");
 }
 .footer-black-dash::after {
   content: "";
