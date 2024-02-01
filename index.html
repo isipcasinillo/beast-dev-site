@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,7 +12,17 @@
       rel="stylesheet" />
   </head>
   <body>
-    <div class="header-container container md:mx-auto h-fit flex flex-row">
+    <nav class=".nav">
+      <div class="navbar-wrapper">
+        <a href="#">
+          <embed class="beast-logo-svg" src="beast-short-logo.svg"
+        /></a>
+
+        <embed class="beast-logo-svg" src="hamburger-nav-svg.svg" />
+      </div>
+    </nav>
+
+    <div class="header-container container md:mx-auto h-fit1 flex flex-row">
       <div class="header-text-container lg:w-4/6">
         <div class="text-wrapper">
           <h2 class="text-5xl leading-snug">
@@ -26,12 +36,9 @@
         </div>
       </div>
       <div class="container-lion">
-        <img
-          id="myImage"
-          class="lion-head-org"
-          src="lion-head-w-outline.png"
-          alt="" />
-
+        <embed class="beast-text-logo" src="beast-text-logo.svg" />
+        <embed class="lion-head-org2" src="lion-head-outline-v2.svg" />
+        <embed id="myImage" class="lion-head-org" src="lion-head-svg-2.svg" />
         <svg
           class="lion-border lion-border-1"
           width="349.716"
@@ -132,7 +139,7 @@
       <div class="jagged-edge-container"></div>
       <div class="jagged-container-wrapper">
         <div>
-          <embed class="star-svg" src="./star-svg.svg" />
+          <embed class="star-svg" src="star-svg.svg" />
         </div>
         <div class="devour-container">
           <div
@@ -154,26 +161,26 @@
     <div class="card-section-container">
       <div class="card">
         <div class="black-dash-effect"></div>
-        <embed class="card-header-svg" src="./ideation-svg.svg" />
+        <embed class="card-header-svg" src="ideation-svg-2.svg" />
         <div class="card-img-wrapper" data-tilt>
-          <img class="astronaut-bg" src="/astronaut-bg.png" alt="" />
+          <img class="astronaut-bg" src="astronaut-bg.png" alt="" />
           <img class="astronaut-img" src="astronaut-img.png" alt="" />
         </div>
         <p>
           Ideation at its core is the spark that fuels our creative engine,
-          driving us to conceive and execute groundbreaking concepts that
+          driving us to conceive and execute groundbreaking concepts t hat
           resonate with audiences and elevate brands.
         </p>
       </div>
       <div class="card">
         <div class="black-dash-effect"></div>
-        <embed class="card-header-svg" src="./execution-svg.svg" />
+        <embed class="card-header-svg" src="execution-svg-2.svg" />
         <div class="card-img-wrapper" data-tilt>
           <img
             class="lion-background-bg"
-            src="/lion-head-background.png"
+            src="lion-head-background.png"
             alt="" />
-          <img class="lion-head-img" src="/lion-img.png" alt="" />
+          <img class="lion-head-img" src="lion-img.png" alt="" />
         </div>
         <p>
           Execution is our relentless pursuit of turning vision into reality,
@@ -183,10 +190,11 @@
       </div>
       <div class="card">
         <div class="black-dash-effect"></div>
-        <embed class="card-header-svg" src="./results-svg.svg" />
+        <embed class="card-header-svg" src="result-svg-2.svg" />
+
         <div class="card-img-wrapper" data-tilt>
-          <img class="visor-bg" src="/visor-bg.png" alt="" />
-          <img class="visor-img" src="/visor-img.png" alt="" />
+          <img class="visor-bg" src="visor-bg.png" alt="" />
+          <img class="visor-img" src="visor-img.png" alt="" />
         </div>
         <p>
           Our fearless approach challenges the status quo, leveraging strategy,
@@ -204,16 +212,16 @@
       <div class="jagged-edge-container jagged-edge-container-banner"></div>
       <div class="jagged-container-wrapper">
         <div>
-          <embed class="star-svg" src="./star-svg.svg" />
+          <embed class="star-svg" src="star-svg.svg" />
         </div>
-        <div class="devour-container devour-container-work-version">
+        <div class="devour-container-work-version work-svg-1">
           <div class="devour devour-translate-left work-pink"></div>
         </div>
         <div
-          class="devour-container devour-container-work-version work-version-transform">
+          class="work-version-transform devour-container-work-version work-svg-2">
           <div class="devour work-black work-black-version"></div>
         </div>
-        <div class="devour-container devour-container-work-version">
+        <div class="devour-container-work-version work-svg-3">
           <div class="devour work-pink work-pink-2"></div>
         </div>
       </div>
@@ -221,172 +229,176 @@
     </div>
 
     <!-- End of Work Banner -->
-
-    <div class="about-page-container container md:mx-auto h-fit flex flex-col">
-      <div class="about-card about-card-marker-1">
-        <div class="white-line-effect-divider"></div>
-        <div class="card-graphic-wrapper">
-          <img src="coinline-phone.png" alt="" />
-          <div class="about-card-text-wrapper">
-            <h2>Levels Completed</h2>
-            <p>7,513</p>
-          </div>
-        </div>
-        <div
-          class="about-content-card-container about-content-card-container-marker-1">
-          <div class="content-button-container">
-            <div class="content-button">
-              <p>Branding</p>
-            </div>
-            <div class="content-button">
-              <p>Web Dev</p>
-            </div>
-            <div class="content-button">
-              <p>Consulting</p>
+    <div class="bg-black">
+      <div
+        class="about-page-container container md:mx-auto h-fit flex flex-col">
+        <div class="about-card about-card-marker-1">
+          <div class="white-line-effect-divider"></div>
+          <div class="card-graphic-wrapper">
+            <img src="coinline-phone.png" alt="" />
+            <div class="about-card-text-wrapper">
+              <h2>Levels Completed</h2>
+              <p>7,513</p>
             </div>
           </div>
-          <div class="coinline-container"><h2>COINLINE</h2></div>
-
-          <p>
-            "Reignite the Arcade nostalgia for classic gamers with a modernized
-            twist for n00b gamers. Beast Creative Agency’s meticulous market
-            research led to the perfect name and brand strategy that seamlessly
-            blends classic and modern. Coinline owner wants to embrace the past
-            while pioneering a new era of Arcade gaming!"
-          </p>
-          <div class="profile-bubble-wrapper">
-            <embed
-              class="profile-bubble-arrow"
-              src="./profile-bubble-arrow.svg" />
-            <div class="profile-bubble-container">
-              <img src="./john-portrait.png" alt="John Speer Portrait" />
-              <div>
-                <h3>John Speer</h3>
-                <p>Beast Co-Owner/COO</p>
+          <div
+            class="about-content-card-container about-content-card-container-marker-1">
+            <div class="content-button-container">
+              <div class="content-button">
+                <p>Branding</p>
+              </div>
+              <div class="content-button">
+                <p>Web Dev</p>
+              </div>
+              <div class="content-button">
+                <p>Consulting</p>
               </div>
             </div>
-          </div>
+            <div class="coinline-container"><h2>COINLINE</h2></div>
 
-          <div class="project-button-container">
-            <button><h3>VIEW PROJECT</h3></button>
-            <embed src="./purple-arrow-right.svg" class="purple-arrow" />
-          </div>
-        </div>
-      </div>
-
-      <div class="about-card about-card-marker-2">
-        <div class="white-line-effect-divider"></div>
-        <div class="card-graphic-wrapper">
-          <img src="williamsfood-phone.png" alt="" />
-          <div class="about-card-text-wrapper">
-            <h2>Emails Collected</h2>
-            <p>13,424</p>
-          </div>
-        </div>
-        <div
-          class="about-content-card-container about-content-card-container-marker-2">
-          <div class="content-button-container">
-            <div class="content-button">
-              <p>Social Media</p>
-            </div>
-            <div class="content-button">
-              <p>Campaign</p>
-            </div>
-            <div class="content-button">
-              <p>Design</p>
-            </div>
-          </div>
-          <div class="coinline-container"><h2>March Madness Campaign</h2></div>
-
-          <p>
-            "Dive into March Madness with Beast Creative Agency! We brought
-            Williams into the social media realm with an engaging social media
-            campaign that brought massive results and consumer engagement. With
-            the “old school” basketball vibe, and inviting fans to collect
-            digital sneaker trading cards showcasing Williams’ seasonings and
-            recipes."
-          </p>
-          <div class="profile-bubble-wrapper">
-            <embed
-              class="profile-bubble-arrow"
-              src="./profile-bubble-arrow.svg" />
-            <div class="profile-bubble-container">
-              <img src="./kyle-portrait.png" alt="Kyle Ossinger Portrait" />
-              <div>
-                <h3>Kyle Ossinger</h3>
-                <p>Beast CCO</p>
+            <p>
+              "Reignite the Arcade nostalgia for classic gamers with a
+              modernized twist for n00b gamers. Beast Creative Agency’s
+              meticulous market research led to the perfect name and brand
+              strategy that seamlessly blends classic and modern. Coinline owner
+              wants to embrace the past while pioneering a new era of Arcade
+              gaming!"
+            </p>
+            <div class="profile-bubble-wrapper">
+              <embed
+                class="profile-bubble-arrow"
+                src="profile-bubble-arrow.svg" />
+              <div class="profile-bubble-container">
+                <img src="john-portrait.png" alt="John Speer Portrait" />
+                <div>
+                  <h3>John Speer</h3>
+                  <p>Beast Co-Owner/COO</p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="project-button-container">
-            <h3>VIEW PROJECT</h3>
-            <embed src="./purple-arrow-right.svg" class="purple-arrow" />
+            <div class="project-button-container">
+              <button><h3>VIEW PROJECT</h3></button>
+              <embed src="purple-arrow-right.svg" class="purple-arrow" />
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="about-card about-card-marker-3">
-        <div class="white-line-effect-divider"></div>
-        <div class="card-graphic-wrapper">
-          <img src="sweet-sensei.png" alt="" />
-          <div class="about-card-text-wrapper">
-            <h2>E-Commerce MRR</h2>
-            <p>+566%</p>
-          </div>
-        </div>
-        <div
-          class="about-content-card-container about-content-card-container-marker-3">
-          <div class="content-button-container">
-            <div class="content-button">
-              <p>SEO</p>
-            </div>
-            <div class="content-button">
-              <p>Campaign</p>
-            </div>
-            <div class="content-button">
-              <p>Branding</p>
-            </div>
-            <div class="content-button">
-              <p>Photography</p>
-            </div>
-            <div class="content-button">
-              <p>Social Media</p>
-            </div>
-            <div class="content-button">
-              <p>Design</p>
+        <div class="about-card about-card-marker-2">
+          <div class="white-line-effect-divider"></div>
+          <div class="card-graphic-wrapper">
+            <img src="williamsfood-phone.png" alt="" />
+            <div class="about-card-text-wrapper">
+              <h2>Emails Collected</h2>
+              <p>13,424</p>
             </div>
           </div>
-          <div class="coinline-container"><h2>SWEET SENSI</h2></div>
-
-          <p>
-            "Beast Creative Agency elevated Sweet Sensi’s online presence and
-            sales with a dynamic SEO and Social Media package. Through rigorous
-            testing, we found that SEO, complemented by creative social media
-            campaigns, delivered the most effective results for driving revenue
-            growth."
-          </p>
-          <div class="profile-bubble-wrapper">
-            <embed
-              class="profile-bubble-arrow"
-              src="./profile-bubble-arrow.svg" />
-            <div class="profile-bubble-container">
-              <img src="./kyle-portrait.png" alt="Kyle Ossinger Portrait" />
-              <div>
-                <h3>Rubi Navarro</h3>
-                <p>Beast Social Media Manager</p>
+          <div
+            class="about-content-card-container about-content-card-container-marker-2">
+            <div class="content-button-container">
+              <div class="content-button">
+                <p>Social Media</p>
+              </div>
+              <div class="content-button">
+                <p>Campaign</p>
+              </div>
+              <div class="content-button">
+                <p>Design</p>
               </div>
             </div>
-          </div>
+            <div class="coinline-container">
+              <h2>March Madness Campaign</h2>
+            </div>
 
-          <div class="project-button-container">
-            <h3>VIEW PROJECT</h3>
-            <embed src="./purple-arrow-right.svg" class="purple-arrow" />
+            <p>
+              "Dive into March Madness with Beast Creative Agency! We brought
+              Williams into the social media realm with an engaging social media
+              campaign that brought massive results and consumer engagement.
+              With the “old school” basketball vibe, and inviting fans to
+              collect digital sneaker trading cards showcasing Williams’
+              seasonings and recipes."
+            </p>
+            <div class="profile-bubble-wrapper">
+              <embed
+                class="profile-bubble-arrow"
+                src="profile-bubble-arrow.svg" />
+              <div class="profile-bubble-container">
+                <img src="kyle-portrait.png" alt="Kyle Ossinger Portrait" />
+                <div>
+                  <h3>Kyle Ossinger</h3>
+                  <p>Beast CCO</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-button-container">
+              <h3>VIEW PROJECT</h3>
+              <embed src="purple-arrow-right.svg" class="purple-arrow" />
+            </div>
+          </div>
+        </div>
+
+        <div class="about-card about-card-marker-3">
+          <div class="white-line-effect-divider"></div>
+          <div class="card-graphic-wrapper">
+            <img src="sweet-sensei.png" alt="" />
+            <div class="about-card-text-wrapper">
+              <h2>E-Commerce MRR</h2>
+              <p>+566%</p>
+            </div>
+          </div>
+          <div
+            class="about-content-card-container about-content-card-container-marker-3">
+            <div class="content-button-container">
+              <div class="content-button">
+                <p>SEO</p>
+              </div>
+              <div class="content-button">
+                <p>Campaign</p>
+              </div>
+              <div class="content-button">
+                <p>Branding</p>
+              </div>
+              <div class="content-button">
+                <p>Photography</p>
+              </div>
+              <div class="content-button">
+                <p>Social Media</p>
+              </div>
+              <div class="content-button">
+                <p>Design</p>
+              </div>
+            </div>
+            <div class="coinline-container"><h2>SWEET SENSI</h2></div>
+
+            <p>
+              "Beast Creative Agency elevated Sweet Sensi’s online presence and
+              sales with a dynamic SEO and Social Media package. Through
+              rigorous testing, we found that SEO, complemented by creative
+              social media campaigns, delivered the most effective results for
+              driving revenue growth."
+            </p>
+            <div class="profile-bubble-wrapper">
+              <embed
+                class="profile-bubble-arrow"
+                src="profile-bubble-arrow.svg" />
+              <div class="profile-bubble-container">
+                <img src="rubi-portrait.png" alt="Kyle Ossinger Portrait" />
+                <div class="name-container">
+                  <h3>Rubi Navarro</h3>
+                  <p>Beast Social Media Manager</p>
+                </div>
+              </div>
+            </div>
+
+            <button class="project-button-container">
+              <h3>VIEW PROJECT</h3>
+              <embed src="purple-arrow-right.svg" class="purple-arrow" />
+            </button>
           </div>
         </div>
       </div>
     </div>
-
     <footer>
       <div class="footer-wrapper">
         <div class="left-footer-container">
@@ -403,18 +415,36 @@
           <p>Let’s see if we’re a great fit and apply to work with us below!</p>
           <div class="footer-medusa-container">
             <div class="flex align-center gap-x-2 text-cont">
-              <embed src="./medusa-scream.png" class="medusa-portrait" />
+              <embed src="medusa-scream.png" class="medusa-portrait" />
               <p>HIRE US TODAY</p>
-              <embed src="./purple-arrow-right.svg" class="purple-arrow" />
+              <embed src="purple-arrow-right.svg" class="purple-arrow" />
             </div>
           </div>
         </div>
       </div>
     </footer>
+    <div class="footer-jagged-banner-container">
+      <div class="footer-edge-container-bottom"></div>
+      <div class="bottom-footer-stack">
+        <embed src="beast-bite-svg.svg" class="beast-bite" />
+        <div class="text-lion-container">
+          <p>Elevating Brands, Empowering Teams, and Delivering Results.</p>
+
+          <embed src="lion-growl-svg.svg" class="lion-growl" />
+        </div>
+        <div class="rights-tag">
+          <p>
+            © All rights reserved 2023 | Privacy Policy | Terms of Service |
+            <span>Let’s Ignite Success Together.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="/vanilla-tilt.min.js"></script>
+    <script src="vanilla-tilt.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
